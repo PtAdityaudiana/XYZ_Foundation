@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5ea;
+    color: #333;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #004d7a;
+    position: fixed;
+    width: 95%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+  
+nav .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+  
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffd700;
+}
+
+.banner {
+    text-align: center;
+    padding: 150px 20px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/banner.jpeg') center/cover no-repeat;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    font-size: 20px;
+}
+  
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+  
+.card:hover {
+    transform: translateY(-25px);
+}
+  
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+  
+.card h3 {
+    margin: 15px;
+}
+  
+.card p {
+    margin: 0 15px 20px;
+    font-size: 14px;
+}
+  
+footer {
+    background: #004d7a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+  
+.program{
+    font-size: 40px;
+    background-color: #4a5a7a;
+}
+
+.program h2{
+    text-align: center;
+}
+
+.about p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #004d7a;
+    font-family: 'Segoe UI', sans-serif;
+}
+.about a:hover{
+    color: #ffd700;
+}
